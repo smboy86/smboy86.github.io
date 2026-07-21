@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smboy86.github.io/sitemap.xml
