@@ -264,7 +264,7 @@ h2 em {
 }
 .section-shell h2 {
   margin-bottom: 24px;
-  font-size: clamp(34px, 4.2vw, 56px);
+  font-size: clamp(34px, 4.2vw, 46px);
   line-height: 1.15;
   letter-spacing: -0.075em;
 }
@@ -1281,6 +1281,13 @@ h2 em {
   font-size: 18px;
   letter-spacing: -0.04em;
 }
+/* ###### 개별 지정 */
+/* overview */
+/* .container two-column h2 {
+  font-size: clamp(34px, 4.2vw, 46px);
+} */
+
+/*  */
 @media (max-width: 800px) {
   .container {
     width: min(100% - 36px, 600px);
