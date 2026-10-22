@@ -6,6 +6,8 @@ GitHub Pages에서 바로 호스팅할 수 있는 정적 포트폴리오 초안�
 
 - `index.html`: 포트폴리오 Overview
 - `projects.html`: 대표 프로젝트
+- `made-by-me.html`: 출시한 앱 6개의 히스토리와 스크린샷 슬라이드
+- `assets/made-by-me/`: Google Play 스토어에 공개된 앱별 스크린샷
 - `experience.html`: 경력 방향
 - `dev-stack.html`: 기술 경험
 - `workflow.html`: 업무 방식
@@ -17,6 +19,8 @@ GitHub Pages에서 바로 호스팅할 수 있는 정적 포트폴리오 초안�
 - `.nojekyll`: 정적 파일을 그대로 배포하기 위한 설정
 
 별도 빌드 도구나 서버가 필요하지 않습니다. 외부 폰트는 Google Fonts를 사용하며, 네트워크가 제한된 환경에서는 시스템 폰트로 대체됩니다.
+
+Made by Me는 Google Play의 최초 출시일을 기준으로 최신순으로 구성합니다. 서비스 소개와 회고 문구는 스토어 소개를 바탕으로 작성했으며, 회고는 작성자의 실제 경험에 맞춰 다듬을 초안입니다. 슬라이드는 버튼·방향키·스와이프로 조작하며 자동 재생하지 않습니다.
 
 ## GitHub Pages 배포
 
