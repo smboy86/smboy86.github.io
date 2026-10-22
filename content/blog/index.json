@@ -1,0 +1,20 @@
+[
+  {
+    "title": "만들고 나서야 보이는 것들",
+    "subtitle": "아이디어와 실제 사용 사이에서",
+    "file": "making.md",
+    "preview": true
+  },
+  {
+    "title": "작은 화면, 작은 발견",
+    "subtitle": "이미지와 함께 남기는 기록",
+    "file": "screens.md",
+    "preview": true
+  },
+  {
+    "title": "다음에 다시 꺼내볼 생각",
+    "subtitle": "정답보다 질문을 남겨두기",
+    "file": "notes.md",
+    "preview": true
+  }
+]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | 박성민 포트폴리오</title>
+    <meta name="description" content="개발하고 운영하며 발견한 것들, 짧은 생각과 경험의 기록." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html"
+          ><span class="brand-mark">PS</span
+          ><span>박성민<span class="brand-dot">.</span></span></a
+        >
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="blog-site-nav">Menu</button>
+        <nav class="site-nav" id="blog-site-nav" aria-label="주요 메뉴">
+          <a href="./projects.html">Projects</a
+          ><a href="./made-by-me.html">Made by Me</a
+          ><a href="./experience.html">Experience</a
+          ><a href="./dev-stack.html">DevStack</a
+          ><a href="./workflow.html">How I Work</a
+          ><a href="./blog.html">Blog</a
+          ><a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="docs-layout">
+      <aside class="docs-sidebar" aria-label="포트폴리오 문서 목차">
+        <p class="docs-sidebar-title">PORTFOLIO DOCS</p>
+        <nav class="docs-nav">
+          <a class="docs-nav-item" href="./index.html"
+            ><span>00</span>Overview</a
+          >
+          <p class="docs-nav-group">WORK</p>
+          <a class="docs-nav-item" href="./projects.html"
+            ><span>01</span>Projects</a
+          ><a class="docs-nav-item" href="./made-by-me.html"
+            ><span>02</span>Made by Me</a
+          ><a class="docs-nav-item" href="./experience.html"
+            ><span>03</span>Experience</a
+          >
+          <p class="docs-nav-group">ENGINEERING</p>
+          <a class="docs-nav-item" href="./dev-stack.html"
+            ><span>04</span>DevStack</a
+          ><a class="docs-nav-item" href="./workflow.html"
+            ><span>05</span>How I Work</a
+          ><a class="docs-nav-item is-current" href="./blog.html"
+            ><span>06</span>Blog</a
+          >
+          <p class="docs-nav-group">CONNECT</p>
+          <a class="docs-nav-item" href="./contact.html"
+            ><span>07</span>Contact</a
+          >
+        </nav>
+        <p class="docs-sidebar-note"><span></span>NOTES / 2026</p>
+      </aside>
+      <div class="docs-content">
+        <header class="blog-intro container">
+          <p class="section-kicker">06 / BLOG</p>
+          <h1>Notes &amp; thoughts<span class="brand-dot">.</span></h1>
+          <p class="section-description">만들고, 고민하고, 발견한 것들.<br />길게 다듬기 전에 남겨두고 싶은 생각을 기록합니다.</p>
+        </header>
+        <section class="container blog-section" aria-label="생각과 경험의 기록">
+          <div id="blog-list" class="blog-list" aria-busy="true">
+            <p class="blog-status" role="status">기록을 불러오고 있습니다.</p>
+          </div>
+          <noscript><p>글을 읽으려면 JavaScript를 켜주세요.</p></noscript>
+        </section>
+        <nav class="doc-pagination container" aria-label="문서 이동">
+          <a class="doc-pagination-link doc-pagination-prev" href="./workflow.html"
+            ><span>← PREVIOUS</span><strong>How I Work</strong></a
+          ><a class="doc-pagination-link doc-pagination-next" href="./contact.html"
+            ><span>NEXT →</span><strong>Contact</strong></a
+          >
+        </nav>
+      </div>
+    </main>
+    <dialog class="blog-image-viewer" aria-label="이미지 크게 보기">
+      <button class="blog-image-close" type="button" aria-label="이미지 닫기">닫기 ×</button>
+      <img alt="" />
+      <p></p>
+    </dialog>
+    <script src="./assets/vendor/marked.umd.js" defer></script>
+    <script src="./assets/vendor/purify.min.js" defer></script>
+    <script src="./script.js" defer></script>
+    <script src="./blog.js" defer></script>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 Park Seongmin</span
+        ><span>Built with clarity, not noise.</span
+        ><a href="./index.html">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
