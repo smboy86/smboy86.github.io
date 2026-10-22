@@ -1051,7 +1051,10 @@ h2 em {
   padding-bottom: 76px;
 }
 .product-date {
-  display: block;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 22px;
   color: var(--muted);
   font-family: "DM Mono", monospace;
@@ -1060,7 +1063,7 @@ h2 em {
 }
 .product-date::before {
   position: absolute;
-  top: 4px;
+  top: 8px;
   left: -37px;
   width: 11px;
   height: 11px;
@@ -1068,6 +1071,26 @@ h2 em {
   background: var(--coral);
   box-shadow: 0 0 0 5px var(--bg);
   content: "";
+}
+.product-platform {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+}
+.product-platform svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+.product-platform:hover {
+  color: var(--coral);
+}
+.product-platform:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
 }
 .product-row {
   display: grid;
